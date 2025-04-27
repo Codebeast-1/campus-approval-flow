@@ -11,9 +11,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Left Side Content */}
               <div className="animate-fade-in">
-                <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-                  Streamline College Approvals
-                </h1>
+                <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Smart Bookings For a Smart Campus</h1>
                 <p className="text-xl text-gray-600 mb-8">Ready to simplify your permissions journey?
 Log in to experience smarter event management at our University</p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -29,7 +27,7 @@ Log in to experience smarter event management at our University</p>
               {/* Right Side Animation/Image */}
               <div className="animate-fade-in order-first md:order-last">
                 <div className="rounded-xl overflow-hidden shadow-xl">
-                  <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" alt="Student using laptop" className="w-full h-auto object-cover" />
+                  <img alt="Student using laptop" className="w-full h-auto object-cover" src="/lovable-uploads/d4f0709f-7767-4aed-913a-981d8c7b37aa.jpg" />
                 </div>
               </div>
             </div>
