@@ -18,10 +18,10 @@ const Index = () => {
 Log in to experience smarter event management at our University</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="bg-brand-blue hover:bg-brand-lightBlue">
-                    <Link to="/login">Sign Up</Link>
+                    <Link to="/login">Login</Link>
                   </Button>
                   <Button asChild size="lg" variant="outline">
-                    <Link to="/login">Login</Link>
+                    
                   </Button>
                 </div>
               </div>
