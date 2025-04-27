@@ -9,6 +9,7 @@ import BookingPage from "./pages/BookingPage";
 import ProcessPage from "./pages/ProcessPage";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";  // Import the new Login page
 
 const queryClient = new QueryClient();
 
@@ -23,7 +24,7 @@ const App = () => (
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/process" element={<ProcessPage />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/login" element={<NotFound />} /> {/* Placeholder for future login page */}
+          <Route path="/login" element={<Login />} /> {/* Updated to use Login page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
