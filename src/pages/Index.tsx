@@ -1,11 +1,8 @@
-
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
-
 const Index = () => {
-  return (
-    <div className="min-h-screen flex flex-col">
+  return <div className="min-h-screen flex flex-col">
       <Navbar />
       
       <main className="flex-grow">
@@ -17,10 +14,8 @@ const Index = () => {
                 <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
                   Streamline College Approvals
                 </h1>
-                <p className="text-xl text-gray-600 mb-8">
-                  Simplify the process of booking lecture theaters, halls, and events with our digital platform. 
-                  Get approvals faster and manage resources efficiently.
-                </p>
+                <p className="text-xl text-gray-600 mb-8">Ready to simplify your permissions journey?
+Log in to experience smarter event management at our University</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild size="lg" className="bg-brand-blue hover:bg-brand-lightBlue">
                     <Link to="/login">Sign Up</Link>
@@ -34,11 +29,7 @@ const Index = () => {
               {/* Right Side Animation/Image */}
               <div className="animate-fade-in order-first md:order-last">
                 <div className="rounded-xl overflow-hidden shadow-xl">
-                  <img 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
-                    alt="Student using laptop" 
-                    className="w-full h-auto object-cover"
-                  />
+                  <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" alt="Student using laptop" className="w-full h-auto object-cover" />
                 </div>
               </div>
             </div>
@@ -90,8 +81,6 @@ const Index = () => {
           <p className="text-center text-gray-500">© 2025 DPMS - Digital Permission Management System. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
